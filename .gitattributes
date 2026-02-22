@@ -1,0 +1,6 @@
+# Exclude everything from GitHub's auto-generated source archives
+# (zip/tar.gz) since this repo only hosts binary release assets.
+* export-ignore
+.gitattributes -export-ignore
+README.md -export-ignore
+LICENSE -export-ignore
